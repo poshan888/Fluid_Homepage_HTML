@@ -1,0 +1,105 @@
+.btn {
+  font-size: 0.9375rem; //15px
+  font-weight: $fw-bold;
+  font-family: $font-family-btn;
+  text-transform: uppercase;
+
+  &-icon {
+    font-size: 1.125rem;
+    font-family: $font-customicon;
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0;
+
+    &.btn-white {
+      color: $white;
+      background-color: transparent;
+    }
+  }
+
+  &-sm {
+    font-size: $font-size-xs;
+    font-family: $font-family-sub-heading;
+    border-radius: $rounded-pill;
+  }
+
+  &-custom {
+    clip-path: polygon(12% 0, 88% 0, 100% 50%, 88% 100%, 12% 100%, 0 50%);
+    padding: 1.125rem 2.6875rem;  //18px 43px
+
+    // -webkit-transition: color 300ms;
+    // transition: color 300ms;
+    // position: relative;
+    // -webkit-transform: translateZ(0);
+    // transform: translateZ(0);
+    // -webkit-backface-visibility: hidden;
+    // backface-visibility: hidden;
+    // -moz-osx-font-smoothing: grayscale;
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   z-index: -1;
+    //   top: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   right: 0;
+    //   background: #2098d1;
+    //   -webkit-transform: scaleX(0);
+    //   transform: scaleX(0);
+    //   -webkit-transform-origin: 50%;
+    //   transform-origin: 50%;
+    //   -webkit-transition-property: transform;
+    //   transition-property: transform;
+    //   -webkit-transition: 300ms ease-out;
+    //   transition: 300ms ease-out;
+    // }
+    // &:hover {
+    //   :before {
+    //     -webkit-transform: scaleX(1);
+    //     transform: scaleX(1);
+    //   }
+    // }
+
+    &.btn-danger {
+      color: $white;
+      transition: all 0.6s ease-in-out;
+
+      &:hover {
+        background-color: $warning;
+        color: $info;
+      }
+    }
+  }
+}
+
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.slick {
+  &-prev, 
+  &-next {
+    background: $white;
+    border-radius: $border-circle;
+    box-shadow: $box-shadow-sm;
+    padding: 1rem;
+    width: 46px;
+    height: 46px;
+    
+    &::before {
+      opacity: 1;
+      color: $black;
+      font-weight: $fw-semibold;
+    }
+  }
+
+  &-next {
+    right: 0;
+  }
+
+  &-disabled {
+    display: none;
+  }
+}

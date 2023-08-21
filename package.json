@@ -1,0 +1,40 @@
+{
+  "name": "fluid_homepage_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fluid_homepage_html"
+  },
+  "keywords": [
+    "HTML",
+    "SCSS",
+    "jQuery",
+    "Javascript",
+    "Bootstrap",
+    "Slick Slider",
+    "Animate On Scroll",
+    "Gulp.JS"
+  ],
+  "author": "Poshan Soneshwary",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-watch": "^5.0.1",
+    "gulp-webp": "^4.0.1",
+    "jquery": "^3.7.0",
+    "sass": "^1.65.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

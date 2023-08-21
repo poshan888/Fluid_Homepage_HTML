@@ -1,0 +1,118 @@
+/* ===================================================================
+Start: Mid Body
+=================================================================== */
+// .mid-body {
+//   display: flex;
+// }
+
+/* ===================================================================
+Start: Hero Section
+=================================================================== */
+.hero{
+  &-section {
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 175px 0;
+  }
+
+  &-content {
+    position: relative;
+    padding: 1.75rem 2.375rem 2.375rem 4.875rem; //28px 38px 38px 78px
+    background-color: $info;
+    border-radius: 0 3rem 3rem 0;
+    display: inline-block;
+
+    @include media(down, $breakpoint-md) {
+      // padding: ;
+    }
+
+    &-text {
+      font-family: $font-family-sub-heading;
+      font-size: 1.125rem; //18px
+      font-weight: $fw-regular;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .icon {
+      position: absolute;
+      left: 0;
+      top: 65px;
+      font-size: 112px;
+    }
+  }
+}
+
+/* ===================================================================
+Start: Product Slider
+=================================================================== */
+.product-slider {
+  padding-top: 75px;
+
+  @include media(down, $breakpoint-md) {
+    padding-top: 2.5rem;
+  }
+
+  &-wrap {
+    width: calc(100vw - 130px);
+    // padding-bottom: 75px;
+
+    // @include media(down, $breakpoint-md) {
+    //   padding-bottom: 2.5rem;
+    // }
+  }
+
+  &-item {
+    margin: 50px 0 75px;
+  }
+}
+
+/* ===================================================================
+Start: Ultimate Brew Guide
+=================================================================== */
+.ultimate-brew-guide {
+  padding: 154px 0 80px;
+
+  @include media(down, $breakpoint-md) {
+    padding: 40px 0;
+  }
+
+  .ultimate-img {
+    position: relative;
+
+    &-seal {
+      position: absolute;
+      right: -3.7rem;
+      top: -3.8rem;
+      z-index: 2;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1.5rem;
+      right: -1rem;
+      width: 630px;
+      height: 500px;
+      background-color: $secondary;
+      z-index: 0;
+    }
+
+    &-main {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+/* ===================================================================
+Start: Real Life Section
+=================================================================== */
+.real-life-section {
+  background-color: $gray-400;
+  padding: 68px 0 54px;
+
+  @include media(down, $breakpoint-md) {
+    padding: 2.5rem 0;
+  }
+}

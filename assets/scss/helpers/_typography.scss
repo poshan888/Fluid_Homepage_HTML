@@ -1,0 +1,40 @@
+/*Headings*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $font-family-heading;
+	font-weight: $fw-bold;
+}
+
+h1, .h1 { 
+	font-size: $font-size-base * 4.875;		// 78px
+} 
+h2, .h2 { 
+	font-size: $font-size-base * 3;		//48px
+} 
+h3, .h3 { 
+	font-size: $font-size-base * 2.5;		//40px
+} 
+h4, .h4 { 
+	font-size: $font-size-base * 2;		//32px
+} 
+h5, .h5 { 
+	font-size: $font-size-base * 1.5;		//24px
+} 
+h6, .h6 { 
+	font-size: $font-size-base;		//16px
+} 
+
+.text-heading {
+	font-size: 2.5rem;
+	font-family: $font-family-heading;
+	font-weight: $fw-bold;
+	text-transform: uppercase;
+}
+
+.text-sub-heading {
+	font-size: $font-size-sm;
+	font-family: $font-family-sub-heading;
+	font-weight: $fw-bold;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
