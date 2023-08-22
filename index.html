@@ -10,14 +10,14 @@
 </head>
 <body>
   <main class="d-flex flex-column h-100">
-    <!-- ====================== Header: Start ====================== -->
-    <header>
-      <!-- ====================== Header-top: Start ====================== -->
-      <p class="text-white text-uppercase bg-tertiary text-center fw-bold header-top-text">FREE SHIPPING ON ALL U.S. ORDERS $49+</p>
-      <!-- ====================== Header-top: Ends ======================= -->
+    <!-- ====================== Header-top: Start ====================== -->
+    <p class="text-white text-uppercase bg-tertiary text-center fw-bold header-top-text">FREE SHIPPING ON ALL U.S. ORDERS $49+</p>
+    <!-- ====================== Header-top: Ends ======================= -->
 
+    <!-- ====================== Header: Start ====================== -->
+    <header class="sticky-top">
       <!-- ====================== Menu-Header: Start ====================== -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right-menu">
@@ -72,12 +72,15 @@
             <button type="button" class="btn btn-danger btn-custom text-uppercase">Get Started</button>
             <button type="button" class="btn btn-white btn-custom text-uppercase ms-3">Gift It</button>
           </div>
+          <div class="text-center">
+            <a href="#productSlider" class="btn-scroll">Explore <span class="icon icon-down-arrow"></span></a>
+          </div>
         </div>
       </section>
       <!-- ====================== Hero Section: Ends ====================== -->
 
       <!-- ====================== Product Slider: Start ====================== -->
-      <section class="product-slider">
+      <section class="product-slider" id="productSlider">
         <div class="container">
           <div class="text-center">
             <span class="d-block text-sub-heading mb-1">POUR YOUR BEST CUP WITH</span>
@@ -306,9 +309,47 @@
       <!-- ====================== Real Life Section: Start ====================== -->
       <section class="real-life-section">
         <div class="container">
-          <h6 class="text-sub-heading mb-1">DESIGNED FOR REAL LIFE</h6>
-          <h3 class="text-heading mb-2">COFFEE MADE FOR YOUR LIFE ON THE GO.</h3>
-          <p class="mb-3">We understand coffee is a big part of your busy, active life. That’s why we create and develop products that allow you to bring your passion for <strong>coffee-when you want it-</strong> and wherever life takes you.</p>
+          <!-- Grid Example -->
+          <div class="grid">
+            <div class="item item-1 item--medium">
+              <div class="item__details">
+                <img src="/assets/images/webp/2x/GridImg2.webp" alt="Nature and Coffee">
+              </div>
+            </div>
+            <div class="item item-2 item--large">
+              <div class="item__details text-center">
+                <h6 class="text-sub-heading mb-1">DESIGNED FOR REAL LIFE</h6>
+                <h3 class="text-heading mb-2">COFFEE MADE FOR YOUR LIFE ON THE GO.</h3>
+                <p class="mb-3">We understand coffee is a big part of your busy, active life. That’s why we create and develop products that allow you to bring your passion for <strong>coffee-when you want it-</strong> and wherever life takes you.</p>
+              </div>
+            </div>
+            <div class="item item-3 item--medium">
+              <div class="item__details">
+                <img src="/assets/images/webp/2x/Mask Group 20@2x.webp" alt="Carry your Coffee">
+              </div>
+            </div>
+            <div class="item item-4 item--small">
+              <div class="item__details">
+                <img src="/assets/images/webp/2x/GridImg3.webp" alt="Coffee at Dine">
+              </div>
+            </div>
+            <div class="item item-5 item--large">
+              <div class="item__details">
+                 <img src="/assets/images/webp/2x/7018-BS-GR_8@2x.webp" alt="Coffee Pouring Woman">
+              </div>
+            </div>
+            <div class="item item-6 item--medium">
+              <div class="item__details">
+                <img src="/assets/images/webp/2x/Mask Group 23@2x.webp" alt="Book and Coffee">
+              </div>
+            </div>
+            <div class="item item-7 item--large">
+              <div class="item__details">
+                <img src="/assets/images/webp/2x/gridImg1.webp" alt="Nature and Coffee">
+              </div>
+            </div>
+          </div>
+          <!-- Grid Example -->
         </div>
       </section>
       <!-- ====================== Real Life Section: Ends ====================== -->

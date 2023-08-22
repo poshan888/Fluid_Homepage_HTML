@@ -1,11 +1,9 @@
-header {
-  .header-top {
-    
-    &-text {
-      padding: 0.875rem 1rem 0.75rem; //14px 0 12px
-      font-family: $font-family-sub-heading;
-      font-size: 0.6875rem; //11px
-    }
+.header-top {
+  
+  &-text {
+    padding: 0.875rem 1rem 0.75rem; //14px 0 12px
+    font-family: $font-family-sub-heading;
+    font-size: 0.6875rem; //11px
   }
 }
 .navbar-right-menu {
