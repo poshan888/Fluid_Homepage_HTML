@@ -9,4 +9,5 @@
 ### How I approached: 
 #### I find this project suitable and comfortable to develop. All the sections have their certain dimension and properties to be used for that, firstly I liked the documentation which we had provided that how to make this proper step by step guidance that makes easier to understand the design and making it visually appealing. I had faced issues while working with bootstrap sticky-top which we had used for header other then that for making of real life section using Grid Property for the output.
 ### Pending: 
-#### Sticky header and Real life section
+* Responsive for all screens
+* Animations on Scroll
